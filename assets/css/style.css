@@ -118,7 +118,7 @@ input:-webkit-autofill {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #4a9cef;
+  background: #f33446;
   border-radius: 5px;
 }
 
