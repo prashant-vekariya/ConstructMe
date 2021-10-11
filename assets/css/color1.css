@@ -107,7 +107,7 @@ ul {
 
 .owl-theme .owl-dots .owl-dot span {
   background-color: #fff;
-  border: 1px solid #5f57ea;
+  border: 1px solid #f33446;
 }
 
 .owl-theme .owl-dots .owl-dot.active span,
@@ -116,10 +116,10 @@ ul {
     linear,
     left top,
     right top,
-    from(#5f57ea),
-    to(#9647db)
+    from(#f33446),
+    to(#f33446)
   );
-  background: linear-gradient(to right, #5f57ea 0%, #9647db 100%);
+  background: linear-gradient(to right, #f33446 0%, #f33446 100%);
   border: 1px solid #fff;
 }
 
