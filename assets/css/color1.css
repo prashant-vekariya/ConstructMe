@@ -156,7 +156,7 @@ button:focus {
 }
 
 .section-title {
-  margin-bottom: 50px;  
+  margin-bottom: 50px;
   margin-top: 100px;
 }
 
@@ -3567,8 +3567,8 @@ li.nav-item.dropdown:first-child .dropdown-menu {
     margin-bottom: 40px;
   }
   section {
-    padding-top: 10px;
-    padding-bottom: 70px;
+    /* padding-top: 10px; */
+    /* padding-bottom: 70px; */
   }
   .profile-2 {
     left: 50px;
@@ -3689,10 +3689,6 @@ li.nav-item.dropdown:first-child .dropdown-menu {
   }
   .contact-text h3 {
     font-size: 16px;
-  }
-  section {
-    padding-top: 10px;
-    padding-bottom: 70px;
   }
   .home-right {
     width: 400px;
@@ -3875,8 +3871,8 @@ li.nav-item.dropdown:first-child .dropdown-menu {
     font-size: 240px;
   }
   section {
-    padding-top: 25px;
-    padding-bottom: 25px;
+    /* padding-top: 25px; */
+    /* padding-bottom: 25px; */
   }
   .section-title {
     margin-bottom: 25px;
