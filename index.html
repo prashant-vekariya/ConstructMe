@@ -1,69 +1,125 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <title>ConstructMe: Manage your whole project in One App.</title>
-  <meta charset="utf-8">
-  <meta name="description" content="">
-  <meta name="keywords" content="">
-  <meta name="author" content="App">
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <!-- favicon-->
-  <link rel="shortcut icon" href="assets/images/favicon-32x32.png">
-  <!-- Font Family-->
-  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
-  <!-- Bootstrap CSS-->
-  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-  <!-- Animation CSS-->
-  <link rel="stylesheet" href="assets/css/animate.min.css">
-  <link rel="stylesheet" href="assets/css/style.css">
-  <!-- Owl carousel .css-->
-  <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
-  <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
-  <!-- font-awesome css-->
-  <link rel="stylesheet" href="assets/css/font-awesome.min.css">
-  <!-- swiper slider-->
-  <link rel="stylesheet" href="assets/css/swiper.min.css">
-  <!-- Style .css-->
-  <link id="color" rel="stylesheet" href="assets/css/color1.css" media="screen">
+  <head>
+    <title>ConstructMe: Manage your whole project in One App.</title>
+    <meta charset="utf-8" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="App" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- favicon-->
+    <link rel="shortcut icon" href="assets/images/favicon-32x32.png" />
+    <!-- Font Family-->
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900"
+      rel="stylesheet"
+    />
+    <!-- Bootstrap CSS-->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <!-- Animation CSS-->
+    <link rel="stylesheet" href="assets/css/animate.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <!-- Owl carousel .css-->
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css" />
+    <!-- font-awesome css-->
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css" />
+    <!-- swiper slider-->
+    <link rel="stylesheet" href="assets/css/swiper.min.css" />
+    <!-- Style .css-->
+    <link
+      id="color"
+      rel="stylesheet"
+      href="assets/css/color1.css"
+      media="screen"
+    />
 
-  <!-- Google Tag Manager -->
-  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  '../www.googletagmanager.com/gtm5445.html?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-NR86D4P');</script>
-<!-- End Google Tag Manager -->
+    <!-- Google Tag Manager -->
+    <script>
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "../www.googletagmanager.com/gtm5445.html?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", "GTM-NR86D4P");
+    </script>
+    <!-- End Google Tag Manager -->
 
-Additionally, paste this code immediately after the opening <body> tag:
-
-  <!-- Google Tag Manager (noscript) -->
-  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NR86D4P"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript
+      ><iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-NR86D4P"
+        height="0"
+        width="0"
+        style="display: none; visibility: hidden"
+      ></iframe
+    ></noscript>
     <!-- End Google Tag Manager (noscript) -->
-
-
   </head>
   <body data-spy="scroll" data-target=".navbar" data-offset="75">
     <!-- loader-->
     <!-- Nav start-->
 
-       <section class="navbar navbar-expand-lg theme-nav fixed-top">
-      <div class="container-fluid" ><a class="navbar-brand" href="index.html"><img class="imgs" src="assets/images/logo.png" alt="logo" style="border-radius: 3px;"></a>
-        
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainmenu" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"><i class="fa fa-align-justify" aria-hidden="true"></i></span></button>
-        
+    <section
+      class="navbar navbar-expand-lg theme-nav fixed-top"
+      style="position: sticky;"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"
+          ><img
+            class="imgs"
+            src="assets/images/logo.png"
+            alt="logo"
+            style="border-radius: 3px"
+        /></a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#mainmenu"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"
+            ><i class="fa fa-align-justify" aria-hidden="true"></i
+          ></span>
+        </button>
+
         <div class="collapse navbar-collapse" id="mainmenu">
-
           <ul class="navbar-nav ml-auto" id="mymenu">
-            <li class="nav-item"><a class="nav-link text-white" href="#">Home</a></li>
-            <li class="nav-item"><a class="nav-link text-white" href="#feature">Features</a></li>
-          <li class="nav-item"><a class="nav-link text-white" href="blog.html">Blog</a></li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#feature">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="blog.html">Blog</a>
+            </li>
             <!-- <li class="nav-item"><a class="nav-link text-white" href="about-us.html">About us</a></li> -->
-            <li class="nav-item"><a class="nav-link text-white" href="privacy-policy.html">Privacy policies</a></li>
-            <li class="nav-item"><a class="nav-link text-white" href="terms-and-conditions.html">Terms And conditions</a></li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="privacy-policy.html"
+                >Privacy policies</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="terms-and-conditions.html"
+                >Terms And conditions</a
+              >
+            </li>
 
-              <li class="nav-item"><a class="nav-link text-white" href="#">Download</a></li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Download</a>
+            </li>
             <!-- <li class="nav-item"><a class="nav-link text-white" href="refund-and-cancellation-policy.html">Return And Refund</a></li> -->
           </ul>
         </div>
@@ -72,115 +128,134 @@ Additionally, paste this code immediately after the opening <body> tag:
     <!-- Nav end-->
     <section>
       <style type="text/css">
-      
-      @media (min-width: 501px){
-        .imgs{
-          width:70px; 
-          height:70px;
-        }
-      }
-
-      @media (max-width: 400px) {
-        .carousel-item {
-          min-height: 330px;
-          background: no-repeat center center scroll;
-          -webkit-background-size: cover;
-          -moz-background-size: cover;
-          -o-background-size: cover;
-          background-size: cover;
-        }
-      }
-
-      
-
-      @media (min-width: 401px) {
-        .carousel-item {
-          /*height: 90vh;*/
-          /*width: auto;*/
-          min-height: 400px;
-          background: no-repeat center center scroll;
-          -webkit-background-size: cover;
-          -moz-background-size: cover;
-          -o-background-size: cover;
-          background-size: cover;
-        }
-      }
-
-
-      @media (min-width: 1000px) {
-        .carousel-item {
-          height: 90vh;
-          min-height: 250px;
-          background: no-repeat center center scroll;
-          -webkit-background-size: cover;
-          -moz-background-size: cover;
-          -o-background-size: cover;
-          background-size: cover;
-        }
-      }
-
-      .hh {
-        display: none;
-      }
-
-      .sticky {
-        display: none;
-      }
-
-      @media (max-width: 700px){
-
-        div.stickys {
-          position: -webkit-sticky;
-          position: sticky;
-          bottom: 12.6%;
-          background:#96cd02;
+        @media (min-width: 501px) {
+          .imgs {
+            width: 70px;
+            height: 70px;
+          }
         }
 
-        div.sticky {
-          z-index: 2;
-          display: block;
-          position: -webkit-sticky;
-          position: sticky;
-          bottom: 0;
-          background:#ffffff;
-          padding: 10px;
+        @media (max-width: 400px) {
+          .carousel-item {
+            min-height: 330px;
+            background: no-repeat center center scroll;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+          }
         }
-        .hh{
-          display: block;
+
+        @media (min-width: 401px) {
+          .carousel-item {
+            /*height: 90vh;*/
+            /*width: auto;*/
+            min-height: 400px;
+            background: no-repeat center center scroll;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+          }
         }
-      }
-    </style>
-    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-      <div class="hh"></div>
-      <ol class="carousel-indicators">
-        <a href="#">
-          <div class="hh px-5" alt="logo" style="box-shadow: 0 3px 10px rgb(0 0 0 / 0.2); background-color: #F33446; font-size: 19px; border-radius: 15px; color: white; padding: 10px;">
-            Download
+
+        @media (min-width: 1000px) {
+          .carousel-item {
+            height: 90vh;
+            min-height: 250px;
+            background: no-repeat center center scroll;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+          }
+        }
+
+        .hh {
+          display: none;
+        }
+
+        .sticky {
+          display: none;
+        }
+
+        @media (max-width: 700px) {
+          div.stickys {
+            position: -webkit-sticky;
+            position: sticky;
+            bottom: 12.6%;
+            background: #96cd02;
+          }
+
+          div.sticky {
+            z-index: 2;
+            display: block;
+            position: -webkit-sticky;
+            position: sticky;
+            bottom: 0;
+            background: #ffffff;
+            padding: 10px;
+          }
+          .hh {
+            display: block;
+          }
+        }
+      </style>
+      <div
+        id="carouselExampleIndicators"
+        class="carousel slide"
+        data-ride="carousel"
+      >
+        <div class="hh"></div>
+        <ol class="carousel-indicators">
+          <a href="#">
+            <div
+              class="hh px-5"
+              alt="logo"
+              style="
+                box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+                background-color: #f33446;
+                font-size: 19px;
+                border-radius: 15px;
+                color: white;
+                padding: 10px;
+              "
+            >
+              Download
+            </div>
+          </a>
+          <!-- <li class="hh" href="#"></li> -->
+          <!-- <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li> -->
+          <!-- <li data-target="#carouselExampleIndicators" data-slide-to="1"></li> -->
+          <!-- <li data-target="#carouselExampleIndicators" data-slide-to="2"></li> -->
+        </ol>
+        <div class="carousel-inner" role="listbox">
+          <!-- Slide One - Set the background image for this slide in the line below -->
+          <div
+            class="carousel-item"
+            style="background-image: url('assets/images/banner3.png')"
+          >
+            <div class="carousel-caption d-none d-md-block">
+              <h2 class="display-4 text-dark">ConstructMe</h2>
+              <p class="lead text-dark">
+                Play And Win Daily Real Money On Ludo Mobile League.
+              </p>
+            </div>
           </div>
-        </a>
-        <!-- <li class="hh" href="#"></li> -->
-        <!-- <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li> -->
-        <!-- <li data-target="#carouselExampleIndicators" data-slide-to="1"></li> -->
-        <!-- <li data-target="#carouselExampleIndicators" data-slide-to="2"></li> -->
-      </ol>
-      <div class="carousel-inner" role="listbox">
-        <!-- Slide One - Set the background image for this slide in the line below -->
-        <div class="carousel-item" style="background-image: url('assets/images/banner3.png')">
-          <div class="carousel-caption d-none d-md-block">
-            <h2 class="display-4 text-dark">ConstructMe</h2>
-            <p class="lead text-dark">Play And Win Daily Real Money On Ludo Mobile League.</p>
+          <!-- Slide Two - Set the background image for this slide in the line below -->
+          <div
+            class="carousel-item active pb-3"
+            style="background-image: url('assets/images/banner2.png')"
+          >
+            <div class="carousel-caption d-none d-md-block"></div>
           </div>
-        </div>
-        <!-- Slide Two - Set the background image for this slide in the line below -->
-        <div class="carousel-item active pb-3" style="background-image: url('assets/images/banner2.png')">
-          <div class="carousel-caption d-none d-md-block">
+          <div
+            class="carousel-item"
+            style="background-image: url('assets/images/banner1.png')"
+          >
+            <div class="carousel-caption d-none d-md-block"></div>
           </div>
-        </div>
-        <div class="carousel-item" style="background-image: url('assets/images/banner1.png')">
-          <div class="carousel-caption d-none d-md-block">
-          </div>
-        </div>
-        <!-- <div class="carousel-item" style="background-image: url('assets/images/banner4.png')">
+          <!-- <div class="carousel-item" style="background-image: url('assets/images/banner4.png')">
           <div class="carousel-caption d-none d-md-block">
           </div>
         </div>
@@ -192,202 +267,426 @@ Additionally, paste this code immediately after the opening <body> tag:
           <div class="carousel-caption d-none d-md-block">
           </div>
         </div> -->
-      </div>
-      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" style="background-color: #F33446; border-radius: 50%;" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="carousel-control-next"  href="#carouselExampleIndicators" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" style="background-color: #F33446; border-radius: 50%;" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
-    </div>
-  </section>
-
-  <!-- <a href="navbar-brands"><img src="assets/images/app1.png" width="120"></a> -->
-
-  <section class="pt-0 pb-0">
-    <div class="theme-bg text-dark pt-0 mt-0" id="feature">
-      <div class="container">
-        <div class="col-md-12 text-center">
-          <div class="section-title">
-            <h2 class="text-dark"><br>App Feature</h2>
-            <div class="line"></div>
-            <p style="color: #000">You can manage any number of project with ConstructMe. It's completely free for use. Just create an account and add your project</p>
-          </div>
         </div>
-        <div class="row pt-4">
-          <div class="col-lg-4 d-f flexdirection j-c">
-            <div class="flexone d-f a-c">
-              <div class="d-f sec4_icocard flexone wow slideInLeft" data-wow-duration="2s">
-                <div class="flexone sec4cardcontent d-f a-c " >24*7 contect support</div>
-                <div class="sec4icosechover">
-                  <div class="sec4icosec wow rotateIn" data-wow-duration="2s">
-                    <img src="assets/images/sec4icon6.png" class=" sec4icoimg">
+        <a
+          class="carousel-control-prev"
+          href="#carouselExampleIndicators"
+          role="button"
+          data-slide="prev"
+        >
+          <span
+            class="carousel-control-prev-icon"
+            style="background-color: #f33446; border-radius: 50%"
+            aria-hidden="true"
+          ></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#carouselExampleIndicators"
+          role="button"
+          data-slide="next"
+        >
+          <span
+            class="carousel-control-next-icon"
+            style="background-color: #f33446; border-radius: 50%"
+            aria-hidden="true"
+          ></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </section>
+
+    <!-- <a href="navbar-brands"><img src="assets/images/app1.png" width="120"></a> -->
+
+    <section class="pt-0 pb-0">
+      <div class="theme-bg text-dark pt-0 mt-0" id="feature">
+        <div class="container">
+          <div class="col-md-12 text-center">
+            <div class="section-title">
+              <h2 class="text-dark"><br />App Feature</h2>
+              <div class="line"></div>
+              <p style="color: #000">
+                You can manage any number of project with ConstructMe. It's
+                completely free for use. Just create an account and add your
+                project
+              </p>
+            </div>
+          </div>
+          <div class="row pt-4">
+            <div class="col-lg-4 d-f flexdirection j-c">
+              <div class="flexone d-f a-c">
+                <div
+                  class="d-f sec4_icocard flexone wow slideInLeft"
+                  data-wow-duration="2s"
+                >
+                  <div class="flexone sec4cardcontent d-f a-c">
+                    24*7 contect support
+                  </div>
+                  <div class="sec4icosechover">
+                    <div class="sec4icosec wow rotateIn" data-wow-duration="2s">
+                      <img
+                        src="assets/images/sec4icon6.png"
+                        class="sec4icoimg"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- <link rel="stylesheet" type="text/css" href="http://ludolions.com/css/style.css"> -->
+              <div class="flexone d-f a-c">
+                <div
+                  class="d-f sec4_icocard flexone wow slideInLeft"
+                  data-wow-duration="2s"
+                >
+                  <div class="flexone sec4cardcontent d-f a-c">
+                    Manage all your project
+                  </div>
+                  <div class="sec4icosechover">
+                    <div class="sec4icosec wow rotateIn" data-wow-duration="2s">
+                      <img
+                        src="assets/images/sec4ico5.png"
+                        class="sec4icoimg"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="flexone d-f a-c">
+                <div
+                  class="d-f sec4_icocard flexone wow slideInLeft"
+                  data-wow-duration="2s"
+                >
+                  <div class="flexone sec4cardcontent d-f a-c">
+                    Generate project daily report
+                  </div>
+                  <div class="sec4icosechover">
+                    <div class="sec4icosec wow rotateIn" data-wow-duration="2s">
+                      <img
+                        src="assets/images/sec4ico4.png"
+                        class="sec4icoimg"
+                      />
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
-            <!-- <link rel="stylesheet" type="text/css" href="http://ludolions.com/css/style.css"> -->
-            <div class="flexone d-f a-c">
-             <div class="d-f sec4_icocard flexone wow slideInLeft" data-wow-duration="2s">
-              <div class="flexone sec4cardcontent d-f a-c " >Manage all your project</div>
-              <div class="sec4icosechover">
-                <div class="sec4icosec wow rotateIn" data-wow-duration="2s">
-                  <img src="assets/images/sec4ico5.png" class="sec4icoimg">
+            <div class="col-lg-4 d-f a-c j-c mb-5">
+              <img
+                src="assets/images/second_ss.jpeg"
+                style="
+                  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset,
+                    rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+                    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+                "
+                width="300px"
+                class="img-fluid"
+              />
+            </div>
+            <div class="col-lg-4 d-f flexdirection j-c">
+              <div
+                class="flexone d-f a-c wow slideInRight"
+                data-wow-duration="2s"
+              >
+                <div class="d-f sec4_icocard flexone">
+                  <div class="sec4icosechover">
+                    <div class="sec4icosec wow rotateIn" data-wow-duration="2s">
+                      <img
+                        src="assets/images/sec4ico3.png"
+                        class="sec4icoimg"
+                      />
+                    </div>
+                  </div>
+                  <div class="flexone sec4cardcontent d-f a-c text-right pr-1">
+                    100% Free to use App
+                  </div>
+                </div>
+              </div>
+              <div
+                class="flexone d-f a-c wow slideInRight"
+                data-wow-duration="2s"
+              >
+                <div class="d-f sec4_icocard flexone">
+                  <div class="sec4icosechover">
+                    <div class="sec4icosec wow rotateIn" data-wow-duration="2s">
+                      <img
+                        src="assets/images/sec4ico2.png"
+                        class="sec4icoimg"
+                      />
+                    </div>
+                  </div>
+                  <div class="flexone sec4cardcontent d-f a-c text-right pr-1">
+                    multiple Language support
+                  </div>
+                </div>
+              </div>
+              <div
+                class="flexone d-f a-c wow slideInRight"
+                data-wow-duration="2s"
+              >
+                <div class="d-f sec4_icocard flexone">
+                  <div class="sec4icosechover">
+                    <div class="sec4icosec wow rotateIn" data-wow-duration="2s">
+                      <img
+                        src="assets/images/sec4ico1.png"
+                        class="sec4icoimg"
+                      />
+                    </div>
+                  </div>
+                  <div class="flexone sec4cardcontent d-f a-c text-right pr-0">
+                    Trade Labour
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-          <div class="flexone d-f a-c">
-           <div class="d-f sec4_icocard flexone wow slideInLeft" data-wow-duration="2s">
-            <div class="flexone sec4cardcontent d-f a-c ">Generate project daily report</div>
-            <div class="sec4icosechover">
-              <div class="sec4icosec wow rotateIn" data-wow-duration="2s">
-                <img src="assets/images/sec4ico4.png"  class=" sec4icoimg">
+        </div>
+      </div>
+      <br />
+    </section>
+
+    <section class="theme-bg pb-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <div class="section-title">
+              <h2 class="text-dark">ConstructMe</h2>
+              <div class="line white"></div>
+            </div>
+          </div>
+          <div class="col-md-12 text-center">
+            <div class="plan-slider img-fluid owl-carousel owl-theme">
+              <div class="item">
+                <img
+                  src="assets/images/ss/1.png"
+                  class="img-fluid"
+                  style="box-shadow: 0 3px 10px rgb(0 0 0 / 0.2)"
+                  alt="1"
+                />
+              </div>
+              <div class="item">
+                <img
+                  src="assets/images/ss/2.png"
+                  class="img-fluid"
+                  style="box-shadow: 0 3px 10px rgb(0 0 0 / 0.2)"
+                  alt="1"
+                />
+              </div>
+              <div class="item">
+                <img
+                  src="assets/images/ss/3.png"
+                  class="img-fluid"
+                  style="box-shadow: 0 3px 10px rgb(0 0 0 / 0.2)"
+                  alt="1"
+                />
+              </div>
+              <div class="item">
+                <img
+                  src="assets/images/ss/4.png"
+                  class="img-fluid"
+                  style="box-shadow: 0 3px 10px rgb(0 0 0 / 0.2)"
+                  alt="1"
+                />
+              </div>
+              <div class="item">
+                <img
+                  src="assets/images/ss/5.png"
+                  class="img-fluid"
+                  style="box-shadow: 0 3px 10px rgb(0 0 0 / 0.2)"
+                  alt="1"
+                />
+              </div>
+              <div class="item">
+                <img
+                  src="assets/images/ss/6.png"
+                  class="img-fluid"
+                  style="box-shadow: 0 3px 10px rgb(0 0 0 / 0.2)"
+                  alt="1"
+                />
               </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="col-lg-4 d-f a-c j-c mb-5">
-        <img src="assets/images/second_ss.jpeg" style="box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;" width="300px" class="img-fluid">
-      </div>
-      <div class="col-lg-4 d-f flexdirection j-c">
-        <div class="flexone d-f a-c wow slideInRight" data-wow-duration="2s">
-         <div class="d-f sec4_icocard flexone">
-           <div class="sec4icosechover">
-             <div class="sec4icosec wow rotateIn" data-wow-duration="2s">
-              <img src="assets/images/sec4ico3.png" class="sec4icoimg">
+    </section>
+
+    <section class="faq" id="faq">
+      <div class="container">
+        <div class="row faq-row">
+          <div class="col-md-12 text-center">
+            <div class="section-title">
+              <h2 style="color: black">Frequently asked Question</h2>
+              <div class="line white"></div>
             </div>
           </div>
-          <div class="flexone sec4cardcontent d-f a-c text-right pr-1">100% Free to use App</div>
-        </div>
-      </div>
-      <div class="flexone d-f a-c wow slideInRight" data-wow-duration="2s">
-       <div class="d-f sec4_icocard flexone">
-         <div class="sec4icosechover">
-           <div class="sec4icosec wow rotateIn" data-wow-duration="2s"> 
-            <img src="assets/images/sec4ico2.png" class=" sec4icoimg">
-          </div>
-        </div>
-        <div class="flexone sec4cardcontent d-f a-c text-right pr-1">multiple Language support</div>
-      </div>
-    </div>
-    <div class="flexone d-f a-c wow slideInRight" data-wow-duration="2s">
-     <div class="d-f sec4_icocard flexone">
-       <div class="sec4icosechover">
-         <div class="sec4icosec wow rotateIn" data-wow-duration="2s">
-          <img src="assets/images/sec4ico1.png" class="sec4icoimg">
-        </div>
-      </div>
-      <div class="flexone sec4cardcontent d-f a-c text-right pr-0">Trade Labour</div>
-    </div>
-  </div>
-</div>
-</div>
-</div>
-</div><br>
-</section>
-
-
-<section class="theme-bg pb-4">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12 text-center">
-        <div class="section-title">
-          <h2 class="text-dark">ConstructMe</h2>
-          <div class="line white"></div>
-        </div>
-      </div>
-      <div class="col-md-12 text-center">
-        <div class="plan-slider img-fluid owl-carousel owl-theme">
-          <div class="item">
-            <img src="assets/images/ss/1.png" class="img-fluid" style="box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);" alt="1">
-          </div>
-          <div class="item">
-           <img src="assets/images/ss/2.png" class="img-fluid" style="box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);" alt="1">
-         </div>
-         <div class="item">
-          <img src="assets/images/ss/3.png" class="img-fluid" style="box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);" alt="1">
-        </div>
-        <div class="item">
-          <img src="assets/images/ss/4.png" class="img-fluid" style="box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);" alt="1">
-        </div>
-        <div class="item">
-          <img src="assets/images/ss/5.png" class="img-fluid" style="box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);" alt="1">
-        </div>
-        <div class="item">
-          <img src="assets/images/ss/6.png" class="img-fluid" style="box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);" alt="1">
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-</section>
-
-
-
-  <section class=" faq" id="faq">
-    <div class="container">
-      <div class="row faq-row">
-        <div class="col-md-12 text-center">
-          <div class="section-title">
-            <h2 style="color: black">Frequently asked Question</h2>
-            <div class="line white"></div>
-          </div>
-        </div>
-        <div class="col-lg-6">
-          <div class="accordion " id="accordionExample">
-            <div class="theme-bg card mb-3" style="background: #F33446; box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;">
-              <div class="card-header" id="headingzero">
-                <h5 class="mb-0">
-                  <button class="faq-link text-white" type="button" data-toggle="collapse" data-target="#collapsezero" aria-expanded="false" aria-controls="collapsezero">01 How can I download ConstructMe?<i class="fa fa-angle-down pull-right"></i></button>
-                </h5>
+          <div class="col-lg-6">
+            <div class="accordion" id="accordionExample">
+              <div
+                class="theme-bg card mb-3"
+                style="
+                  background: #f33446;
+                  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+                    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+                "
+              >
+                <div class="card-header" id="headingzero">
+                  <h5 class="mb-0">
+                    <button
+                      class="faq-link text-white"
+                      type="button"
+                      data-toggle="collapse"
+                      data-target="#collapsezero"
+                      aria-expanded="false"
+                      aria-controls="collapsezero"
+                    >
+                      01 How can I download ConstructMe?<i
+                        class="fa fa-angle-down pull-right"
+                      ></i>
+                    </button>
+                  </h5>
+                </div>
+                <div
+                  class="collapse"
+                  id="collapsezero"
+                  aria-labelledby="headingzero"
+                  data-parent="#accordionExample"
+                >
+                  <div class="card-body text-white">
+                    Now it's available in Google play store for Android users
+                    and it will b to le available very soon in Apple Store for
+                    iOS users and web version for desktop.
+                  </div>
+                </div>
               </div>
-              <div class="collapse" id="collapsezero" aria-labelledby="headingzero" data-parent="#accordionExample">
-                <div class="card-body text-white">Now it's available in Google play store for Android users and it will b to le available very soon in Apple Store for iOS users and web version for desktop.</div>
+              <div
+                class="theme-bg card mb-3"
+                style="
+                  background: #f33446;
+                  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+                    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+                "
+              >
+                <div class="card-header" id="headingOne">
+                  <h5 class="mb-0">
+                    <button
+                      class="faq-link text-white"
+                      type="button"
+                      data-toggle="collapse"
+                      data-target="#collapseOne"
+                      aria-expanded="true"
+                      aria-controls="collapseOne"
+                    >
+                      02 How to use ConstructMe?<i
+                        class="fa fa-angle-down pull-right"
+                      ></i>
+                    </button>
+                  </h5>
+                </div>
+                <div
+                  class="collapse show text-white"
+                  id="collapseOne"
+                  aria-labelledby="headingOne"
+                  data-parent="#accordionExample"
+                >
+                  <div class="card-body text-white">
+                    It's very simple. Just create project and add team member
+                    based on their work. You can also generate report for your
+                    transaction.
+                  </div>
+                </div>
+              </div>
+              <div
+                class="theme-bg card mb-3"
+                style="
+                  background: #f33446;
+                  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+                    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+                "
+              >
+                <div class="card-header" id="headingTwo">
+                  <h5 class="mb-0">
+                    <button
+                      class="faq-link text-white"
+                      type="button"
+                      data-toggle="collapse"
+                      data-target="#collapseTwo"
+                      aria-expanded="false"
+                      aria-controls="collapseTwo"
+                    >
+                      03 How many project I can edit?<i
+                        class="fa fa-angle-down pull-right"
+                      ></i>
+                    </button>
+                  </h5>
+                </div>
+                <div
+                  class="collapse"
+                  id="collapseTwo"
+                  aria-labelledby="headingTwo"
+                  data-parent="#accordionExample"
+                >
+                  <div class="card-body text-white">
+                    You can add multiple project in ConstructMe without any
+                    limitations.
+                  </div>
+                </div>
+              </div>
+              <div
+                class="theme-bg card"
+                style="
+                  background: #f33446;
+                  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+                    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+                "
+              >
+                <div class="card-header" id="headingThree">
+                  <h5 class="mb-0">
+                    <button
+                      class="faq-link text-white"
+                      type="button"
+                      data-toggle="collapse"
+                      data-target="#collapseThree"
+                      aria-expanded="false"
+                      aria-controls="collapseThree"
+                    >
+                      04 Is ConstructMe safe?<i
+                        class="fa fa-angle-down pull-right"
+                      ></i>
+                    </button>
+                  </h5>
+                </div>
+                <div
+                  class="collapse"
+                  id="collapseThree"
+                  aria-labelledby="headingThree"
+                  data-parent="#accordionExample"
+                >
+                  <div class="card-body text-white">
+                    Yes, security & privacy is our first priority. We never
+                    compromised with security.
+                  </div>
+                </div>
               </div>
             </div>
-            <div class="theme-bg card mb-3" style="background: #F33446; box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;">
-              <div class="card-header" id="headingOne">
-                <h5 class="mb-0">
-                  <button class="faq-link text-white" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">02 How to use ConstructMe?<i class="fa fa-angle-down pull-right"></i></button>
-                </h5>
-              </div>
-              <div class="collapse show text-white" id="collapseOne" aria-labelledby="headingOne" data-parent="#accordionExample">
-                <div class="card-body text-white">It's very simple. Just create project and add team member based on their work. You can also generate report for your transaction.</div>
-              </div>
-            </div>
-            <div class="theme-bg card mb-3" style="background: #F33446; box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;">
-              <div class="card-header" id="headingTwo">
-                <h5 class="mb-0">
-                  <button class="faq-link text-white" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">03 How many project I can edit?<i class="fa fa-angle-down pull-right"></i></button>
-                </h5>
-              </div>
-              <div class="collapse" id="collapseTwo" aria-labelledby="headingTwo" data-parent="#accordionExample">
-                <div class="card-body text-white">You can add multiple project in ConstructMe without any limitations.</div>
-              </div>
-            </div>
-            <div class="theme-bg card" style="background: #F33446; box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;">
-              <div class="card-header" id="headingThree">
-                <h5 class="mb-0">
-                  <button class="faq-link text-white" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">04 Is ConstructMe safe?<i class="fa fa-angle-down pull-right"></i></button>
-                </h5>
-              </div>
-              <div class="collapse" id="collapseThree" aria-labelledby="headingThree" data-parent="#accordionExample">
-                <div class="card-body text-white">Yes, security & privacy is our first priority. We never compromised with security.</div>
-              </div>
-            </div>
+          </div>
+          <div class="col-lg-6 text-center">
+            <img
+              class="img-fluid"
+              style="
+                box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset,
+                  rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+                  rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+              "
+              src="assets/images/first_ss.jpeg"
+              width="300"
+              alt=""
+            />
           </div>
         </div>
-        <div class="col-lg-6 text-center"><img class="img-fluid" style="box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;" src="assets/images/first_ss.jpeg" width="300" alt=""></div>
       </div>
-    </div>
-  </section>
+    </section>
 
-
-  <!-- <section class="pb-0 about" id="refer">
+    <!-- <section class="pb-0 about" id="refer">
     <div class="about-services" id="refer-friend">
       <div class="container">
         <div class="row">
@@ -434,10 +733,9 @@ Additionally, paste this code immediately after the opening <body> tag:
     </div>
   </section> -->
 
-<!-- work section-->
+    <!-- work section-->
 
-
-<!-- <section class="work">
+    <!-- <section class="work">
   <div class="container">
     <div class="row">
       <div class="col-md-8 offset-md-2 text-center">
@@ -477,12 +775,8 @@ Additionally, paste this code immediately after the opening <body> tag:
   </div>
 </section> -->
 
-
-
-
-
-<!-- download section-->
-<!-- <section class="download-bg">
+    <!-- download section-->
+    <!-- <section class="download-bg">
   <div class="container">
     <div class="row">
       <div class="col-xl-3 display-flex">
@@ -503,7 +797,7 @@ Additionally, paste this code immediately after the opening <body> tag:
     </div>
   </div>
 </section> -->
-<!-- 
+    <!-- 
 <section class="container">
   <div class="col-md-12 text-center">
     <div class="section-title">
@@ -556,53 +850,75 @@ if (isNaN(x) || x < 1000000000 || x > 9999999999) {
 </script>
 </section> -->
 
-<!-- <link rel="stylesheet" type="text/css" href="https://getbootstrap.com/docs/4.4/dist/css/bootstrap.min.css"> -->
-<footer class="bd-footer text-muted" style="background-color: #f8f8fa !important">
-  <div class="container-fluid p-3 p-md-5">
-    <div class="social-footer">
-      <ul class="bd-footer-links row">
-        <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-        <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
-        <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-        <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-        <li><a href="#"><i class="fa fa-rss" aria-hidden="true"></i></a></li>
-      </ul>
-    </div>
-    <p>Designed and built with all the love in the world by the <a href="#" style="color: #F44336">ConstructMe team</a> with the help of <a href="#" style="color: #F44336">our contributors</a>.</p>
-    <p>Copyright ©2020 ConstructMe | All rights reserved</p>
-  </div>
-</footer>
+    <!-- <link rel="stylesheet" type="text/css" href="https://getbootstrap.com/docs/4.4/dist/css/bootstrap.min.css"> -->
+    <footer
+      class="bd-footer text-muted"
+      style="background-color: #f8f8fa !important"
+    >
+      <div class="container-fluid p-3 p-md-5">
+        <div class="social-footer">
+          <ul class="bd-footer-links row">
+            <li>
+              <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+            </li>
+            <li>
+              <a href="#"
+                ><i class="fa fa-google-plus" aria-hidden="true"></i
+              ></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-rss" aria-hidden="true"></i></a>
+            </li>
+          </ul>
+        </div>
+        <p>
+          Designed and built with all the love in the world by the
+          <a href="#" style="color: #f44336">ConstructMe team</a> with the help
+          of <a href="#" style="color: #f44336">our contributors</a>.
+        </p>
+        <p>Copyright ©2020 ConstructMe | All rights reserved</p>
+      </div>
+    </footer>
 
-<script>
+    <script>
+      function isNumericKey(evt) {
+        var charCode = evt.which ? evt.which : evt.keyCode;
+        if (charCode != 46 && charCode > 31 && (charCode < 48 || charCode > 57))
+          return true;
+        return false;
+      }
+    </script>
+    <div
+      class="fb-customerchat"
+      attribution="setup_tool"
+      page_id="2123438804574660"
+      theme_color="#5f57ea"
+      logged_in_greeting="Hi! Welcome to PixelStrap Themes  How can we help you?"
+      logged_out_greeting="Hi! Welcome to PixelStrap Themes  How can we help you?"
+    ></div>
 
-  function isNumericKey(evt)
-  {
-    var charCode = (evt.which) ? evt.which : evt.keyCode;
-    if (charCode != 46 && charCode > 31 
-      && (charCode < 48 || charCode > 57))
-      return true;
-    return false;
-  } 
-</script>
-<div class="fb-customerchat" attribution="setup_tool" page_id="2123438804574660" theme_color="#5f57ea" logged_in_greeting="Hi! Welcome to PixelStrap Themes  How can we help you?" logged_out_greeting="Hi! Welcome to PixelStrap Themes  How can we help you?"></div>
-
-<!-- js file-->
-<script src="assets/js/jquery-3.3.1.min.js"></script>
-<!-- bootstrap js file-->
-<script src="assets/js/bootstrap.min.js"></script>
-<!-- popper js file-->
-<script src="assets/js/popper.min.js"></script>
-<!-- Owl carousel js file-->
-<script src="assets/js/owl.carousel.min.js"></script>
-<!-- tilt js file-->
-<script src="assets/js/tilt.jquery.js"></script>
-<!-- script js file-->
-<script src="assets/js/script.js"></script>
-<!-- swiper js-->
-<script src="assets/js/swiper.min.js"></script>
-<!--home page-->
-<script src="assets/js/scroll.js"></script>
-<script src="assets/js/slider.js"></script>
-</body>
-
+    <!-- js file-->
+    <script src="assets/js/jquery-3.3.1.min.js"></script>
+    <!-- bootstrap js file-->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!-- popper js file-->
+    <script src="assets/js/popper.min.js"></script>
+    <!-- Owl carousel js file-->
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <!-- tilt js file-->
+    <script src="assets/js/tilt.jquery.js"></script>
+    <!-- script js file-->
+    <script src="assets/js/script.js"></script>
+    <!-- swiper js-->
+    <script src="assets/js/swiper.min.js"></script>
+    <!--home page-->
+    <script src="assets/js/scroll.js"></script>
+    <script src="assets/js/slider.js"></script>
+  </body>
 </html>
